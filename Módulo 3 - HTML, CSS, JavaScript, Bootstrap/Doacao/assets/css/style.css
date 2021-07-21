@@ -1,0 +1,71 @@
+/*Página index */
+
+.menu li{
+    display: inline;
+    padding: 15px 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black; 
+}
+.menu li a:hover {
+    color: brown;
+}
+.center{
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.wh-300{
+    height: 300px;
+    width: 300px;
+}
+.br-50{
+    border-radius: 50%;
+}
+.p-30 {
+    padding: 30px;
+}
+.wh-50 {
+    height: 50px;
+    width: 50px;
+}
+.mg-b-50{
+    margin-bottom: 50px;
+}
+.mg-b-20 {
+    margin-bottom: 20px;
+}
+.p-t-10 {
+    padding-top: 10px;
+}
+.botao {
+    background-color: orange;
+    padding: 5px 15px;
+}
+.rodape {
+ background-color: rgb(246, 210, 111);
+}
+
+/* Página CachorroIdoso  */
+.br-5 {
+border-radius: 5%;
+}
+/*
+.container iframe {
+    padding: 100px 0 50px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}  */
