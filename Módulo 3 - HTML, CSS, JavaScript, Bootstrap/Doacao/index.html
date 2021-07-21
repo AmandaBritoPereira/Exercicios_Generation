@@ -1,42 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Doacao de cães</title>
 </head>
+
 <body>
-    <ul>
+    <ul class="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="CachorroIdoso.html">Cães Seniors</a></li>
     </ul>
-    <h1>Alguém para amar e ser amado</h1>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum tempora obcaecati ea qui maxime impedit quidem molestias sunt unde, corrupti sed soluta ab corporis alias veritatis in culpa inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi cum dignissimos beatae recusandae aliquid blanditiis nobis veniam? Ut perferendis est, ad, beatae alias exercitationem laborum nemo ullam facilis eligendi nostrum!</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero, fuga magnam doloribus maiores eum ad commodi repellat laboriosam iste quae molestiae quia distinctio quod voluptatibus veniam. Expedita, quam id.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi quibusdam voluptas neque consectetur provident impedit ad voluptate cum ullam ut, magni natus hic at, nam voluptatem totam, obcaecati eligendi?</p>
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UA799498NB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h2>Entre em contato conosco para mais informações</h2>
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome">
-    
-        <label for="email">E-mail:</label>
-        <input type="text" id="email">
-    
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto">
+    <h1 class="center">Alguém para amar e ser amado</h1>
+    <div class="container">
+        <div class="p-30">
+            <img class="wh-300 br-50"
+                src="https://s2.glbimg.com/KNfZH_mAOlhkPVtbtftSv-KfIdk=/0x0:960x847/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/j/n/VNZJ5iQHGmzh8xBFCdeQ/chico.jpg"
+                alt="cão caramelo no colo de sua dona">
+        </div>
+        <div class="p-30 mg-b-50">
+            <p class="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo earum tempora obcaecati ea
+                qui maxime impedit quidem molestias sunt unde, corrupti sed soluta ab corporis alias veritatis in culpa
+                inventore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi cum dignissimos beatae
+                recusandae aliquid blanditiis nobis veniam? Ut perferendis est, ad, beatae alias exercitationem laborum
+                nemo ullam facilis eligendi nostrum!</p>
+            <p class="justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero, fuga magnam
+                doloribus maiores eum ad commodi repellat laboriosam iste quae molestiae quia distinctio quod
+                voluptatibus veniam. Expedita, quam id.</p>
+            <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi quibusdam voluptas
+                neque consectetur provident impedit ad voluptate cum ullam ut, magni natus hic at, nam voluptatem totam,
+                obcaecati eligendi?</p>
+        </div>
+       
+    </div>
+    <div class="container p-30 mg-b-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UA799498NB8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <h2 class="center">Entre em contato conosco para mais informações</h2>
+    <div class="container">
+        <form>
+            <div class="p-t-10">
+                <label for="nome">Nome:</label>
+            </div>
+            <div>
+                <input type="text" id="nome">
+            </div>
+            <div class="p-t-10">
+                <label for="email">E-mail:</label>
+            </div>
+            <div>
+                <input type="text" id="email">
+            </div>
+            <div class="p-t-10">
+                <label for="assunto">Assunto:</label>
+            </div>
+            <div>
+                <input type="text" id="assunto">
+            </div>
+            <div class="p-t-10">
+                <label for="mensagem">Mensagem:</label>
+            </div>
+            <div>
+                <textarea name="mensagem" id="mensagem" cols="60" rows="5"></textarea>
+            </div>
+            <div class="p-t-10">
+                <label for="opcao">Temos uma revista mensal, deseja receber via e-mail?</label>
+            </div>
+            <div>
+                <input class="mg-b-20" type="checkbox" id="opcao">
+            </div>
+            <input class="botao mg-b-50" type="button" value="Enviar">
+        </form>
+    </div>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea name="mensagem" id="mensagem" cols="60" rows="5"></textarea>
+    <h3 class="center">Nosso endereço físico:</h3>
+    <div class="center mg-b-50">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88019.67920339902!2d-46.675107863221605!3d-23.70739617836872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde23d1a6d6119a03!2sAssocia%C3%A7%C3%A3o%20de%20Amparo%20Aos%20Animais!5e0!3m2!1spt-BR!2sbr!4v1626573875583!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
-        <label for="opcao">Temos uma revista mensal, deseja receber via e-mail?</label>
-        <input type="checkbox" id="opcao">
-    </form>
-    
-    <h3>Nosso endereço físico:</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88019.67920339902!2d-46.675107863221605!3d-23.70739617836872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde23d1a6d6119a03!2sAssocia%C3%A7%C3%A3o%20de%20Amparo%20Aos%20Animais!5e0!3m2!1spt-BR!2sbr!4v1626573875583!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <footer class="rodape">
+        <hr>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank"><img class="wh-50 p-30" src="./assets/facebook.png"
+                    alt="logo do facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img class="wh-50 p-30" src="./assets/instagram.png"
+                    alt="logo do instagram"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img class="wh-50 p-30" src="./assets/linkedin.png"
+                    alt="logo do linkedin"></a>
+        </div>
+        <p class="center">Direitos reservados: Amanda Brito &copy</p>
+    </footer>
 </body>
+
 </html>
